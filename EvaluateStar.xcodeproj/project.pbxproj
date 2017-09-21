@@ -15,6 +15,7 @@
 		F53ADF231F73B30200106EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53ADF211F73B30200106EED /* LaunchScreen.storyboard */; };
 		F53ADF2E1F73B30200106EED /* EvaluateStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53ADF2D1F73B30200106EED /* EvaluateStarTests.m */; };
 		F53ADF391F73B30200106EED /* EvaluateStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53ADF381F73B30200106EED /* EvaluateStarUITests.m */; };
+		F53ADF481F73B34800106EED /* RchStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53ADF471F73B34800106EED /* RchStarRateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F53ADF341F73B30200106EED /* EvaluateStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvaluateStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53ADF381F73B30200106EED /* EvaluateStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvaluateStarUITests.m; sourceTree = "<group>"; };
 		F53ADF3A1F73B30200106EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53ADF461F73B34800106EED /* RchStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RchStarRateView.h; sourceTree = "<group>"; };
+		F53ADF471F73B34800106EED /* RchStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RchStarRateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F53ADF171F73B30200106EED /* AppDelegate.m */,
 				F53ADF191F73B30200106EED /* ViewController.h */,
 				F53ADF1A1F73B30200106EED /* ViewController.m */,
+				F53ADF461F73B34800106EED /* RchStarRateView.h */,
+				F53ADF471F73B34800106EED /* RchStarRateView.m */,
 				F53ADF1C1F73B30200106EED /* Main.storyboard */,
 				F53ADF1F1F73B30200106EED /* Assets.xcassets */,
 				F53ADF211F73B30200106EED /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				F53ADF1B1F73B30200106EED /* ViewController.m in Sources */,
 				F53ADF181F73B30200106EED /* AppDelegate.m in Sources */,
+				F53ADF481F73B34800106EED /* RchStarRateView.m in Sources */,
 				F53ADF151F73B30200106EED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
